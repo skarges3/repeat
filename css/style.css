@@ -1,208 +1,44 @@
-section {
-	background-color: #CC401F;
+.slide {
+	background-image: url('https://static.pexels.com/photos/6587/woman-desk-office-working.jpg');
 	color: #E9F2FA;
+	background-size: cover;
+	background-position: top center;
 }
 
 .slide2{
-	minheight: 100vh;
+	background-color: rgba(255,255,255,0.85);
+	height: 100vh;
+	padding-top: 44vh;
 }
 
 .slide {
-	background-color: #fff;
-	min-height: 80vh;
-	padding: 2.2em 4em;
-	padding-top: 20vh;
+	height: 100vh;
 	text-align: center;
+}
+
+.slide h1, .slide h4 {
+	line-height: 1.2;
+	margin: 0 auto;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 2.1em;
+	max-width: 620px;
 }
 
 .slide h1 {
-	line-height: 1;
-	margin: 0 auto;
+ font-size: 3em;
+line-height: 1;
 }
 
-.slide h1:nth-child(1) {
-	margin-right: -4%;
-}
-
-.slide h1:nth-child(3) {
-	margin-left: -4%;
-}
-
-.slide h1:nth-child(2) {
-	margin-left: -2%;
-	margin-right: -2%;
-}
-
-#tagline {
-	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline";
-	margin-top: 60px;
-	font-weight: 900;
-	-webkit-animation-delay: 1s;
-	animation-delay: 1s;
-	-webkit-animation-duration: 2s;
-	animation-duration: 2s;
-	font-size: 2em;
-}
-
-.top2 {
-	-webkit-animation-delay: 2.5s;
-	animation-delay: 2.5s;
-	-webkit-animation-duration: 2s;
-	animation-duration: 2s;
-}
-
-.seeourwork {
-	margin-top: 20vh;
-	-webkit-animation-duration: 4s;
-	animation-duration: 4s;
-}
-
-.seeourwork img {
-	width: 60px;
-}
-
-.casestudies {
-	background-image: url(https://static.pexels.com/photos/7304/pexels-photo-large.jpeg);
-	background-size: cover;
-	height: 40vh;
-}
-
-.remove-padding {
-	padding: 0;
-	margin: 0 auto;
-}
-
-.less-padding {
-	padding: 5px;
-	margin: 0 auto;
-}
-
-.top {
-	padding: 7em 0em;
-	color: #E9F2FA;
-	text-align: center;
-	min-height: 70vh;
-}
-
-.top h1, .top h4 {
-	color: #E9F2FA;
-	font-weight: 700;
-}
-
-.top2 {
-	background-color: rgba(144,192,229,0.1);
-	text-align: center;
-	padding: 0;
-	padding: 5em 0em;
-	min-height: 80vh;
-	border-bottom: 2px solid rgba(144,192,229,0.4);
-	border-top: 2px solid rgba(144,192,229,0.4);
-}
-
-.work {
-	background-color: #fff;
-	text-align: center;
-	padding: 0;
-	padding: 5em 0em;
-	min-height: 80vh;	
-}
-
-.work h3 {
-	font-weight: 700;
-	letter-spacing: 3px;
-}
-
-.work img {
-	filter: saturate(0);
-	-webkit-filter: saturate(0);
-	padding: 1em;
-	max-width: 300px;
-}
-
-.work img:hover {
-	filter: saturate(1);
-	-webkit-filter: saturate(1);
-	transition-duration: 0.3s;
-}
-
-a.casestudy {
-	display: block;
-	width: 300px;
-	margin: auto;
-	background-color: #CC041F;
-	color: #fff;
-	padding: 1em;
-}
-
-a.casestudy img {
-	width: 20%;
-	padding: 0;
-}
-
-.top2 img {
-	padding: 0;
-	margin: 0;
-}
-
-.top2 h2 {
-	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline", "Hoefler Text", Georgia, serif;
-	font-weight: 700;
-	text-align: left;
-	margin: 0;
-	font-size: 2em;
-/*	padding: 0.43em 0.6em;*/
-	line-height: 1.125;
-}
-
-.top2 h4 {
-	font-family: coranto-2, "coranto-2", "Coranto 2", "Hoefler Text", Georgia, serif;
-	font-weight: 100;
-	text-align: left;
-/*	padding: 0.43em 0.6em;*/
-	color: #777;
-}
-
-.coranto {
-	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline", "Hoefler Text", Georgia, serif;
-	font-weight: 700;
-}
-
-@media only screen and (min-width: 1200px) {
-	.top, top2 {
-		min-height: 100vh;
-		padding: 10em 0em;
-	}
-	.contain {
-	padding: 0em 10em;
-	}
-}
-
-@media only screen and (max-width: 800px) {
-	.top, .top2 {
-		min-height: 80vh;
-		padding: 2em 0em;
-	}
-	
-	.top2 h2 {
-		font-size: 2em;
-	}
-	
-	.top2 h4 {
-		font-size: 1.60em;
-	}
-	
-}
 
 @media only screen and (max-width: 500px) {
-	.slide {
-		padding: 11em 1.5em 1em 1.5em;
+
+	.slide2 {
+		padding-top: 34vh;
 	}
-}
-
-@media only screen and (max-width: 400px) {
-
 
 }
+
+/*MENU*/
 
 .nav-toggle {
   display: block;
